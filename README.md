@@ -19,4 +19,4 @@ Este proyecto automatiza el flujo de compra básico en la pagina SauceDemo para 
 
 ## Ejecucion de pruebas
 Para correr los tests y generar el reporte:
-`pytest tests/test_saucedemo.py -v --html=reports/reporte.html`
+`pytest test/test_login_01.py test/test_inventory_02.py test/test_cart_03.py -v --html=reports/reporte.html`
