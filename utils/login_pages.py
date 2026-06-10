@@ -17,6 +17,6 @@ def login(driver):
     #contra.send_keys(Keys.RETURN)
 
     #Ingreso boton login
-    boton = driver.find_element(By.ID, "login-button").click()
+    driver.find_element(By.ID, "login-button").click()
 
     
